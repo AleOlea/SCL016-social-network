@@ -118,37 +118,23 @@
     margin-top: 3%;
     font-size: 12px;
   }
-  #whoWeAre{
-    display: grid;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
-  } 
   
   #we-are {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
     justify-self: center;
     align-self: start;
-    width: 500px;
-    height: 400px;
+    width: 800px;
+    height: 500px;
   }
   
   #motivation {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    width: 35vw;
-    height: 70vh;
+    width: 800px;
+    height: 800px;
   } 
 }
 
 @media screen and (min-width: 2001px) and (max-width: 4000px){
 
+  /* About Us */
   #new-post {
     margin-top: 3%;
     margin-bottom: 5%;
@@ -163,24 +149,26 @@
     font-size: 14px;
   }
 
+  /* About Us */
   #whoWeAre{
     display: grid;
     grid-row-start: 2;
     grid-row-end: 3;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
+    grid-template-rows: 40% 60%;
   } 
   
   #we-are {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    justify-self: center;
-    align-self: start;
-    width: 700px;
+    width: 800px;
     height: 500px;
+    margin-top: 3%;
   }
+
+  #motivation {
+    width: 800px;
+    height: 600px;
+    margin-top: 4%;
+  } 
+
   #footer-div{
     font-size: 16px;
   }
