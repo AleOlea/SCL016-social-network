@@ -5,13 +5,13 @@ export const postProfile = () => {
   profilePostDiv.id = 'profilePosts-div';
   const db = firebase.firestore();
   const userProfile = getCurrentUser().email;
-  // const myPosts = currentUserPost.where('user', '==', userProfile);
+
   db.collection('allPosts').where('user', '==', userProfile).get().then((querySnapshot) => {
     console.log(querySnapshot);
     querySnapshot.forEach((doc) => {
       const profilePosts = doc.data();
       console.log(profilePosts);
-      // Post container
+
       const postContainer = document.createElement('div');
       postContainer.id = 'post-container';
 

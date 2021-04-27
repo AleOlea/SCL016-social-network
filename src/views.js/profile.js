@@ -1,6 +1,5 @@
 import { navBar } from '../components/nav-bar.js';
 import { userData } from '../components/user-data.js';
-// import { editOptions } from '../components/edit-delete.js';
 import { postProfile } from '../components/post-profile.js';
 
 export const profile = () => {

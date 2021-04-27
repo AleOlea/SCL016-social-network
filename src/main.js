@@ -12,6 +12,8 @@ import { aboutUsContainer } from './views.js/view-about-us.js';
 const content = document.getElementById('root');
 // If the user is trying to enter to route login
 if (window.location.pathname === '/login') {
+/* To clean fields */
+
   content.innerHTML = '';
   content.appendChild(loginForm());
   initForm();
