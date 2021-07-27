@@ -26,14 +26,25 @@ Poder conectar con personas viviendo las mismas emociones, sensaciones físicas 
 
 ## Diseño de la Interfaz de Usuario:
 
-Prototipos:
+* Prototipos:
+<hr>
+<hr>
 <img src="src/images/low-fi.jpeg" alt="paper-image" width="500"/>
 <img src="src/images/hi-fi2.jpeg" alt="paper-image" width="500"/>
 
-Para ver UX ir a:
+
+
+
+*****************************
+
+## UX 
 https://miro.com/app/board/o9J_lM-yoLo=/
 
-Para ver UI ir a: 
+
+
+*****************************
+
+## UI
 https://www.figma.com/file/XOpO54V0tSYYFtj95rhb0G/Prototipo-Red-Social?node-id=18%3A78
 
 </div>
