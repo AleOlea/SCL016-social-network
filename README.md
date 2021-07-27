@@ -12,8 +12,8 @@ Laboratoria generación 2021
 
 ## Resumen del proyecto:
 
-Lola Go es nuestro tercer proyecto en el bootcamp de Laboratoria. Lola es una app donde las personas que menstrúan pueden encontrarse para compartir sentimientos, pensamientos, inquietudes, inspiración en fin todo lo que pasa en el cuerpo y alma cuando menstruamos 
-Lola tiene muchas dimensiones y nuestra app esta recién nacida.
+Lola Go es nuestro tercer proyecto en el bootcamp de Laboratoria. Lola es una app donde las personas que menstrúan pueden encontrarse para compartir sentimientos, pensamientos, inquietudes, inspiración en fin todo lo que pasa en el cuerpo y alma cuando menstruamos. 
+Lola tiene muchas dimensiones donde los usuarios pueden interactuar.  La aplicación esta en una etapa muy temprana de diseño y desarrollo.
 
 ## Usuarios 
 
