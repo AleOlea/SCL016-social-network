@@ -1,27 +1,28 @@
-<div style="text-align: justify">  
-## Nombre del proyecto
-Red Social: Lola Go with the Flow
+<div style="text-align: justify">
 
-## Desarrolladora:
-Alejandra Olea
-Camila Castro
-Pamela Pérez
+## Proyecto:
+# Red Social - Lola Go (with the Flow).
 
-
-Laboratoria generación 2021
+## Desarrolladoras:
+* Alejandra Olea
+* Camila Castro
+* Pamela Pérez
 
 ## Resumen del proyecto:
 
-Lola Go es nuestro tercer proyecto en el bootcamp de Laboratoria. Lola es una app donde las personas que menstrúan pueden encontrarse para compartir sentimientos, pensamientos, inquietudes, inspiración en fin todo lo que pasa en el cuerpo y alma cuando menstruamos. 
-Lola tiene muchas dimensiones donde los usuarios pueden interactuar.  La aplicación esta en una etapa muy temprana de diseño y desarrollo.
+ Lola es una app donde las personas que menstrúan pueden encontrarse para compartir sentimientos, pensamientos, inquietudes y todo lo que pasa en el cuerpo y alma cuando menstruamos. 
+
+La aplicación tiene muchas dimensiones donde los usuarios pueden interactuar, mucho potencial. Se encuentra en una etapa temprana de diseño y desarrollo.
+
+
 
 ## Usuarios 
 
-Personas que menstrúan
+* Principalmente personas que menstrúan o que van a menstruar.
 
 ## Problema que resuelve el producto:
 
-Vivimos emociones, sensaciones e inquitudes cuando estamos menstruando, el poder conectar con los demas nos trae una dimensión de amistad, de conexion y enriquece nuestra vivencia.   Nuestra app Lola Go es un espacio virtual de encuentro. 
+Poder conectar con personas viviendo las mismas emociones, sensaciones físicas y lo que nos pasa cuando menstruamos. Intercambiar experiencias, vivencias, sabidurias ancestrales y modernas.  
 
 ## Diseño de la Interfaz de Usuario:
 
