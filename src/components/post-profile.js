@@ -8,6 +8,7 @@ export const postProfile = () => {
 
   db.collection('allPosts').where('user', '==', userProfile).get().then((querySnapshot) => {
     console.log(querySnapshot);
+
     querySnapshot.forEach((doc) => {
       const profilePosts = doc.data();
       console.log(profilePosts);
@@ -24,6 +25,7 @@ export const postProfile = () => {
 
       profilePostDiv.appendChild(postContainer);
       console.log(doc.id, '=>', doc.data());
+
       // Changes https://firebase.google.com/docs/firestore/query-data/listen
       db.collection('allPosts').doc(doc.id)
         .onSnapshot((newPost) => {
@@ -39,11 +41,10 @@ export const postProfile = () => {
       editionMenu.id = 'edition-menu';
       const editLi = document.createElement('li');
       editLi.id = 'edit-li';
-      // editLi.textContent = 'edit';
       editionMenu.appendChild(editLi);
 
       const editModal = () => {
-        console.log('me estoy haciendo click');
+        // console.log('me estoy haciendo click');
 
         const modalEditContent = document.createElement('div');
         modalEditContent.id = 'modal-edit-content';
@@ -85,6 +86,7 @@ export const postProfile = () => {
               console.error('Error updating document: ', error);
             });
         };
+
         const buttonSubmitEdition = document.createElement('button');
         buttonSubmitEdition.id = 'button-submit-edittion';
         buttonSubmitEdition.textContent = 'Guardar';
@@ -101,6 +103,7 @@ export const postProfile = () => {
         modalEditContent.display = 'initial';
         return modalEditContent;
       };
+
       editLi.addEventListener('click', editModal);
 
       // Delete a Post

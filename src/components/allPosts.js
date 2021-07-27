@@ -14,9 +14,11 @@ export const allPosts = () => {
       const posts = doc.data();
       const allPostsLi = document.createElement('li');
       allPostsLi.id = 'allPosts-li';
+
       const homePostsContainer = `<div>${posts.tittle}</div><div>${posts.content}</div>`;
       allPostsLi.innerHTML += homePostsContainer;
       allPostDiv.appendChild(allPostsLi);
+
       // Create a button
       const likeButtonEl = document.createElement('button');
       likeButtonEl.textContent = '❤';
